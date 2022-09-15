@@ -10,13 +10,22 @@
     align-items: center;
     font-size: x-small;
 
+    .menu {
+      height: 6vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: .5em 0;
+    }
+
     .sidebar-item {
       width: 5vw;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      
+      margin: 1.5em 0;
+
       p {
         margin: 0;
       }
@@ -29,9 +38,8 @@
       display: flex;
       justify-content: space-between;
       padding: .5em 2em;
-      height: 3.5em;
-    }
-
+      height: 6vh;
+      
     .left {
       display: flex;
       align-items: center;
@@ -53,7 +61,7 @@
         border: 1px solid #D3D3D3;
         border-radius: 3px;
 
-        .divider {
+        .search-divider {
           border-right: 1px solid #D3D3D3;
           height: 2.5em;
         }
@@ -112,6 +120,16 @@
         justify-content: center;
         align-items: center;
       }
+    }
+    }
+
+    .divider {
+      border: 1px solid #E5E5E5;
+    }
+
+    .main-body {
+      height: 94vh;
+      background-color: #F9F9F9;
     }
   }
 }

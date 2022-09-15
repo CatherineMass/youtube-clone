@@ -37,7 +37,7 @@ const Home = () => {
 					<div className='center'>
 						<form className='form'>
 							<input placeholder='Search'/>
-							<div className='divider'/>
+							<div className='search-divider'/>
 							<div className='btn'>
 								<button type='submit'><AiOutlineSearch size={25} /></button>
 							</div>
@@ -52,6 +52,10 @@ const Home = () => {
 						<div className='avatar'><p>N</p></div>
 					</div>
 				</header>
+				<div className='divider'/>
+				<div className='main-body'>
+					
+				</div>
 			</div>
 		</div>
 	);
