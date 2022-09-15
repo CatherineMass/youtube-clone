@@ -6,19 +6,19 @@ import logo from '../logo.svg';
 const Home = () => {
 	return (
 		<div className='home'>
-			<header>
-				<div className='header menu-logo'>
-					<AiOutlineMenu />
+			<header className='header'>
+				<div className='left'>
+					<AiOutlineMenu className='menu-btn' size={30} />
 					<img src={logo} />
 				</div>
-				<div className='header search'>
+				<div className='center'>
 					<form>
-						<input/>
+						<input placeholder='Search'/>
 						<button type='submit'><AiOutlineSearch /></button>
 					</form>
 					<AiFillAudio />
 				</div>
-				<div className='header actions'>
+				<div className='right'>
 					<BiVideoPlus />
 					<BiBell />
 					<div className='avatar'><p>N</p></div>

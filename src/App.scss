@@ -1,0 +1,18 @@
+.home {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: .5em 2em;
+    height: 3.5em;
+  }
+
+  .left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .menu-btn {
+      margin-right: 2em;
+    }
+  }
+}
