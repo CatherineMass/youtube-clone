@@ -1,4 +1,4 @@
-.home {
+.layout {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8,7 +8,7 @@
           flex-direction: row;
 }
 
-.home .sidebar {
+.layout .sidebar {
   width: 5vw;
   padding: .2em;
   display: -webkit-box;
@@ -24,7 +24,7 @@
   font-size: x-small;
 }
 
-.home .sidebar .menu {
+.layout .sidebar .menu {
   height: 6vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -38,7 +38,7 @@
   padding: .5em 0;
 }
 
-.home .sidebar .sidebar-item {
+.layout .sidebar .sidebar-item {
   width: 5vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -56,16 +56,16 @@
   margin: 1.5em 0;
 }
 
-.home .sidebar .sidebar-item p {
+.layout .sidebar .sidebar-item p {
   margin: 0;
 }
 
-.home .main {
+.layout .main {
   height: 100vh;
   width: 95vw;
 }
 
-.home .main .header {
+.layout .main .header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -76,7 +76,7 @@
   height: 6vh;
 }
 
-.home .main .header .left {
+.layout .main .header .left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -88,7 +88,7 @@
           justify-content: center;
 }
 
-.home .main .header .center {
+.layout .main .header .center {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -97,7 +97,7 @@
           align-items: center;
 }
 
-.home .main .header .center .form {
+.layout .main .header .center .form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,12 +111,12 @@
   border-radius: 3px;
 }
 
-.home .main .header .center .form .search-divider {
+.layout .main .header .center .form .search-divider {
   border-right: 1px solid #D3D3D3;
   height: 2.5em;
 }
 
-.home .main .header .center .form input {
+.layout .main .header .center .form input {
   height: 2em;
   font-size: large;
   width: 40vw;
@@ -124,13 +124,13 @@
   padding-left: .3em;
 }
 
-.home .main .header .center .form button {
+.layout .main .header .center .form button {
   width: 5em;
   border: none;
   background-color: #F8F8F8;
 }
 
-.home .main .header .center .form .btn {
+.layout .main .header .center .form .btn {
   height: 2.5em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -145,7 +145,7 @@
   border-radius: 0 3px 3px 0;
 }
 
-.home .main .header .center .micro {
+.layout .main .header .center .micro {
   background-color: #F9F9F9;
   border-radius: 50%;
   margin-left: .5em;
@@ -163,7 +163,7 @@
           align-items: center;
 }
 
-.home .main .header .right {
+.layout .main .header .right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -176,7 +176,7 @@
   width: 10vw;
 }
 
-.home .main .header .right .avatar {
+.layout .main .header .right .avatar {
   font-size: large;
   color: #FAFDFD;
   background-color: #0288D0;
@@ -194,11 +194,11 @@
           align-items: center;
 }
 
-.home .main .divider {
+.layout .main .divider {
   border: 1px solid #E5E5E5;
 }
 
-.home .main .main-body {
+.layout .main .main-body {
   height: 94vh;
   background-color: #F9F9F9;
 }
