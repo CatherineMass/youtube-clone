@@ -1,39 +1,8 @@
 .layout {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  width: 95vw;
 
-  .sidebar {
-    width: 5vw;
-    padding: .2em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: x-small;
-
-    .menu {
-      height: 6vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: .5em 0;
-    }
-
-    .sidebar-item {
-      width: 5vw;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin: 1.5em 0;
-
-      p {
-        margin: 0;
-      }
-    }
-  }
-  .main {
-    height: 100vh;
-    width: 95vw;
     .header {
       display: flex;
       justify-content: space-between;
@@ -124,12 +93,124 @@
     }
 
     .divider {
-      border: 1px solid #E5E5E5;
+      border: 1px solid #E5E5E5
     }
 
     .main-body {
       height: 94vh;
-      background-color: #F9F9F9;
+      
+    }
+}
+
+.home {
+  display: flex;
+  width: 100vw;
+}
+
+.home_main {
+  width: 95vw;
+  
+  .rows {
+    background-color: #F9F9F9;
+    padding: 1.5em .8em;
+  }
+
+  .row, .first-row {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .last-row {
+    display: flex;
+  }
+}
+
+.playback {
+  background-color: #F9F9F9;
+}
+
+.sidebar {
+  width: 5vw;
+  padding: .2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: x-small;
+
+  .menu {
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5em 0;
+  }
+
+  .sidebar-item {
+    width: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5em 0;
+
+    p {
+      margin: 0;
     }
   }
 }
+
+.video-home {
+  display: flex;
+  flex-direction: column;
+  width: 22vw;
+  margin-left: 1em;
+  margin-bottom: 2.5em;
+
+  .home_video-img img {
+    width: 22vw;
+  }
+
+  .home_video-under {
+    display: flex;
+    align-items: flex-start;
+    margin-top: .6em;
+
+    .home_channel-img {
+      border-radius: 50%;
+      img {
+        border-radius: 50%;
+        height: 2.5em;
+      }
+    }
+
+    .home_video-text {
+      padding: 0 1em;
+      font-family: 'Roboto', Arial, sans-serif;
+
+      p, h3 {
+        margin: 0;
+      }
+
+      p {
+        font-size: small;
+        color: #606060;
+      }
+
+      .home_title {
+        height: 2.4em;
+        width: 15vw;
+        overflow: hidden;
+
+        h3 {
+          font-size: 14.5px;
+          font-weight: 600;
+        }
+      }
+
+      .home_channel {
+        margin: .5em 0 .3em 0;
+      }
+    }
+  }
+}
+

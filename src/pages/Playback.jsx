@@ -2,7 +2,7 @@ import React from 'react';
 
 const Playback = () => {
 	return (
-		<div>Playback</div>
+		<div className='playback'>Playback</div>
 	);
 };
 
