@@ -1,15 +1,17 @@
 import React from 'react';
 import { AiOutlineSearch, AiFillAudio, AiOutlineMenu } from 'react-icons/ai';
 import { BiVideoPlus, BiBell } from 'react-icons/bi';
+import { useNavigate } from 'react-router';
 import logo from '../logo.svg';
 
 const HeaderPlayback = () => {
+	const navigate = useNavigate();
 	return (
 		<div className='playback_layout'>
 			<header className='header'>
 				<div className='left'>
 					<AiOutlineMenu className='menu-btn' size={25} />
-					<img src={logo} />
+					<img src={logo} onClick={() => navigate('/')} />
 				</div>
 				<div className='center'>
 					<form className='form'>
