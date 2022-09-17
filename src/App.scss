@@ -1,4 +1,4 @@
-.layout {
+.layout, .playback_layout {
   display: flex;
   flex-direction: column;
   width: 95vw;
@@ -14,9 +14,9 @@
       align-items: center;
       justify-content: center;
 
-      // .menu-btn {
-      //   margin-right: 2em;
-      // }
+      .menu-btn {
+        margin-right: 2em;
+      }
     }
 
     .center {
@@ -93,12 +93,16 @@
     }
 
     .divider {
-      border: 1px solid #E5E5E5
+      border: 1px solid #E5E5E5;
+      width: 100vw;
+    }
+
+    .playback_divider {
+      border: 1px solid #E5E5E5;
     }
 
     .main-body {
       height: 94vh;
-      
     }
 }
 
@@ -125,8 +129,9 @@
   }
 }
 
-.playback {
-  background-color: #F9F9F9;
+.playback_layout {
+  // background-color: #F9F9F9;
+  width: 100vw;
 }
 
 .sidebar {

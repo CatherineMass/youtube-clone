@@ -1,4 +1,4 @@
-.layout {
+.layout, .playback_layout {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,7 +9,7 @@
   width: 95vw;
 }
 
-.layout .header {
+.layout .header, .playback_layout .header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,7 +20,7 @@
   height: 6vh;
 }
 
-.layout .header .left {
+.layout .header .left, .playback_layout .header .left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,7 +32,11 @@
           justify-content: center;
 }
 
-.layout .header .center {
+.layout .header .left .menu-btn, .playback_layout .header .left .menu-btn {
+  margin-right: 2em;
+}
+
+.layout .header .center, .playback_layout .header .center {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,7 +45,7 @@
           align-items: center;
 }
 
-.layout .header .center .form {
+.layout .header .center .form, .playback_layout .header .center .form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,12 +59,12 @@
   border-radius: 3px;
 }
 
-.layout .header .center .form .search-divider {
+.layout .header .center .form .search-divider, .playback_layout .header .center .form .search-divider {
   border-right: 1px solid #D3D3D3;
   height: 2.5em;
 }
 
-.layout .header .center .form input {
+.layout .header .center .form input, .playback_layout .header .center .form input {
   height: 2em;
   font-size: large;
   width: 40vw;
@@ -68,13 +72,13 @@
   padding-left: .3em;
 }
 
-.layout .header .center .form button {
+.layout .header .center .form button, .playback_layout .header .center .form button {
   width: 5em;
   border: none;
   background-color: #F8F8F8;
 }
 
-.layout .header .center .form .btn {
+.layout .header .center .form .btn, .playback_layout .header .center .form .btn {
   height: 2.5em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -89,7 +93,7 @@
   border-radius: 0 3px 3px 0;
 }
 
-.layout .header .center .micro {
+.layout .header .center .micro, .playback_layout .header .center .micro {
   background-color: #F9F9F9;
   border-radius: 50%;
   margin-left: .5em;
@@ -107,7 +111,7 @@
           align-items: center;
 }
 
-.layout .header .right {
+.layout .header .right, .playback_layout .header .right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -120,7 +124,7 @@
   width: 10vw;
 }
 
-.layout .header .right .avatar {
+.layout .header .right .avatar, .playback_layout .header .right .avatar {
   font-size: large;
   color: #FAFDFD;
   background-color: #0288D0;
@@ -138,11 +142,16 @@
           align-items: center;
 }
 
-.layout .divider {
+.layout .divider, .playback_layout .divider {
+  border: 1px solid #E5E5E5;
+  width: 100vw;
+}
+
+.layout .playback_divider, .playback_layout .playback_divider {
   border: 1px solid #E5E5E5;
 }
 
-.layout .main-body {
+.layout .main-body, .playback_layout .main-body {
   height: 94vh;
 }
 
@@ -177,8 +186,8 @@
   display: flex;
 }
 
-.playback {
-  background-color: #F9F9F9;
+.playback_layout {
+  width: 100vw;
 }
 
 .sidebar {

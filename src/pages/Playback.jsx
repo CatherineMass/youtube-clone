@@ -1,8 +1,11 @@
 import React from 'react';
+import HeaderPlayback from '../components/HeaderPlayback';
 
 const Playback = () => {
 	return (
-		<div className='playback'>Playback</div>
+		<div className='playback'>
+			<HeaderPlayback />
+		</div>
 	);
 };
 
