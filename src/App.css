@@ -190,6 +190,17 @@
   width: 100vw;
 }
 
+.playback_main {
+  background-color: #F9F9F9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.5em 5em;
+}
+
 .sidebar {
   width: 5vw;
   padding: .2em;
@@ -305,5 +316,10 @@
 
 .video-home .home_video-under .home_video-text .home_channel {
   margin: .5em 0 .3em 0;
+}
+
+.video_playback .video {
+  width: 75vw;
+  height: 70vh;
 }
 /*# sourceMappingURL=App.css.map */

@@ -1,3 +1,4 @@
+// Pages
 .layout, .playback_layout {
   display: flex;
   flex-direction: column;
@@ -130,10 +131,17 @@
 }
 
 .playback_layout {
-  // background-color: #F9F9F9;
   width: 100vw;
 }
 
+.playback_main {
+  background-color: #F9F9F9;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em 5em;
+}
+
+// Components
 .sidebar {
   width: 5vw;
   padding: .2em;
@@ -219,3 +227,10 @@
   }
 }
 
+.video_playback {
+
+  .video {
+    width: 75vw;
+    height: 70vh;
+  }
+}
